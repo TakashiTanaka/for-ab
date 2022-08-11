@@ -1,0 +1,19 @@
+{
+  "name": "166",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mySketch.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cp": "cp node_modules/my-p5-ex/dist/p5ex.js lib/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "my-p5-ex": "^1.0.4"
+  }
+}
