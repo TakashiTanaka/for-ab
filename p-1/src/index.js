@@ -60,14 +60,14 @@ const main = () => {
   objs = []; // 描画が終わったらobjsを初期化
 };
 
-const setup = () => {
+function setup() {
   init();
   createCanvas(canvasSize, canvasSize);
   colorMode(HSB, 1, 1, 1, 1);
   main();
 }
 
-const windowResized = () => {
+function windowResized() {
   init();
   resizeCanvas(canvasSize, canvasSize);
   main();
