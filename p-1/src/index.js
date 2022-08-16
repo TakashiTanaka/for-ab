@@ -17,11 +17,12 @@ const options = {
   turnBackCount: 10, // 折り返す数
 };
 
-// window.tokenData = getTokenData(123);
-window.tokenData = {
-  hash: '0x11ac16678959949c12d5410212301960fc496813cbc3495bf77aeed738579738',
-  tokenId: '123000186',
-};
+window.tokenData = getTokenData(123);
+
+// window.tokenData = {
+//   hash: '0x11ac16678959949c12d5410212301960fc496813cbc3495bf77aeed738579738',
+//   tokenId: '123000186',
+// };
 
 const init = () => {
   w = window.innerWidth;
