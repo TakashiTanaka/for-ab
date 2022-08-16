@@ -1,19 +1,27 @@
 {
-  "name": "166",
+  "name": "fragile",
   "version": "1.0.0",
   "description": "",
-  "main": "mySketch.js",
+  "main": "main.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cp": "cp node_modules/my-p5-ex/dist/p5ex.js lib/"
+    "start": "webpack serve",
+    "build": "MODE=production webpack build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "my-p5-ex": "^1.0.4"
+    "my-p5-ex": "^1.0.7"
+  },
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "terser-webpack-plugin": "^5.3.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
   }
 }
